@@ -17,10 +17,10 @@
             <table>
                 <tr colspan="colspan"> User Information</tr>
                 <tr>
-                    <td>Student Id: <input type="text" name="id" /></td>
+                    <td>Student Id: <input type="text" name="id" required=""/></td>
                 </tr>
                 <tr>
-                    <td>Fullname: <input type="text" name="name" /></td>
+                    <td>Fullname: <input type="text" name="name" required=""/></td>
                 </tr>
                 <tr>
                     <td>
