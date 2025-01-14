@@ -20,7 +20,7 @@
                     <td>Student Id: <input type="text" name="id" required=""/></td>
                 </tr>
                 <tr>
-                    <td>Fullname: <input type="text" name="name" required=""/></td>
+                    <td >Fullname: <input type="text" name="name" required=" "/></td>
                 </tr>
                 <tr>
                     <td>

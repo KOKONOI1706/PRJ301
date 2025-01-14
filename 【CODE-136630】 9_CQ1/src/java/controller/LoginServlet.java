@@ -37,7 +37,7 @@ public class LoginServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet LoginServlet</title>");            
+            out.println("<title>Servlet LoginServlet</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet LoginServlet at " + request.getContextPath() + "</h1>");
@@ -72,25 +72,18 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-        try(PrintWriter out = response.getWriter()){
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
+        try (PrintWriter out = response.getWriter()) {
             String id = request.getParameter("id");
             String studentName = request.getParameter("name");
             String gender = request.getParameter("gender");
-           
-            out.println("<h1>" + "Welcome" + studentName + "!! </h1>" );
-            out.println("Your student's id is: " + id + "</br>");
-            out.println("Your gender is: " + gender);
-            
+            out.println("<h1 style='font-color: red'>" + "Your full name is: " + studentName + "!! </h1>" + "</br>");
+            out.println("<h1>" + "Your student's id is: " + id + "!! </h1>" + "</br>");
+            out.println("<h1>" + "Your gender is: " + gender + "!! </h1>");
         }
     }
-   
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
     @Override
     public String getServletInfo() {
         return "Short description";
