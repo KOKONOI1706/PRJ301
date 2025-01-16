@@ -7,6 +7,7 @@ package controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -61,14 +62,9 @@ public class MainController extends HttpServlet {
         processRequest(request, response);
     }
 
-    /**
-     * Handles the HTTP <code>POST</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
+    public boolean isValidLogin(String username, String password){
+        return (username.equals("admin") && password.equals("12345678"));
+    }
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -81,16 +77,20 @@ public class MainController extends HttpServlet {
                 out.println("Please input username and password");
                 return;
             }
+            //check length
             if (password.trim().length() < 8) {
                 out.println("Password must be at least 8 characters");
                 return;
             }
-            if(name.equals("admin") || password.equals("12345678")){
-                out.print("Login successful !!");
-                return;
+            //login process
+            if(isValidLogin(name, password)){
+                //Chuyen trang
+                RequestDispatcher rd = request.getRequestDispatcher("search.html");
+                rd.forward(request, response);
             }else{
-                out.println("Username and password are invalid");
-                return;
+//                RequestDispatcher rd = request.getRequestDispatcher("invalid.html");
+//                rd.forward(request, response);
+                response.sendRedirect("invalid.html");
             }
             
         }
