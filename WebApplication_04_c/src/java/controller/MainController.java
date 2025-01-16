@@ -62,9 +62,10 @@ public class MainController extends HttpServlet {
         processRequest(request, response);
     }
 
-    public boolean isValidLogin(String username, String password){
+    public boolean isValidLogin(String username, String password) {
         return (username.equals("admin") && password.equals("12345678"));
     }
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -83,16 +84,24 @@ public class MainController extends HttpServlet {
                 return;
             }
             //login process
-            if(isValidLogin(name, password)){
+            if (isValidLogin(name, password)) {
                 //Chuyen trang
                 RequestDispatcher rd = request.getRequestDispatcher("search.html");
                 rd.forward(request, response);
-            }else{
+            } else {
 //                RequestDispatcher rd = request.getRequestDispatcher("invalid.html");
 //                rd.forward(request, response);
                 response.sendRedirect("invalid.html");
+                // rd.forward(request, response) va response.sendRedirect("invalid.html");
+                // Using RequestDispatcher would forward response and request to "invalid.html"
+                // The URL in the browser would remain the same as the origin login page
+                // RequestDispatcher rd = request.getRequestDispatcher("invalid.html")
+                // rd.forward(request, response);
+                // Comment: The difference between rd.forward and response.sendRedirect:
+                // - rd.forward: Server-side forwarding, URL does not change
+                // - response.sendRedirect: Client-side redirection, URL changes 
             }
-            
+
         }
     }
 
