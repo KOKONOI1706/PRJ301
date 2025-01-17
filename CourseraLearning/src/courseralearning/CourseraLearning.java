@@ -16,6 +16,8 @@ public class CourseraLearning {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        chainedConditions chain = new chainedConditions();
+        chain.whereToGo(300);
     }
     
 }
