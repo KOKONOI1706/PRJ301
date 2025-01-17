@@ -5,12 +5,15 @@
  */
 package courseralearning;
 
+import java.util.Scanner;
+
 /**
  *
  * @author GIGABYTE
  */
-public class CourseraLearning {
 
+public class CourseraLearning {
+    Scanner sc = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
@@ -18,6 +21,7 @@ public class CourseraLearning {
         // TODO code application logic here
         chainedConditions chain = new chainedConditions();
         chain.whereToGo(300);
+        
     }
     
 }

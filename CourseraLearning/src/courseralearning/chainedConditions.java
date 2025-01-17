@@ -12,14 +12,14 @@ package courseralearning;
 public class chainedConditions {
 
     public void whereToGo(int a) {
-        int dollarsToSpareInPocketToday = 500;
+        int dollarsToSpareInPocketToday = a;
 
         // 1st level "if" condition
         if (dollarsToSpareInPocketToday < 300) {
             System.out.println("I will go to my parents place. No diversions.");
         } else {
             //corresponding "else" body or area of control of 1st "if"
-
+            
             // checking if interested in games based on luck
             boolean interestedInLuckAndFun = true;
 
