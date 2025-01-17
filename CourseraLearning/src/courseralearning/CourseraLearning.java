@@ -8,7 +8,6 @@ package courseralearning;
 import java.util.Scanner;
 
 /**
- *
  * @author GIGABYTE
  */
 public class CourseraLearning {
@@ -22,11 +21,20 @@ public class CourseraLearning {
         // TODO code application logic here
         chainedConditions chain = new chainedConditions();
         chain.whereToGo(300);
-        int loopVar = 12;
+        int x = 12;
 
-        do {
-            System.out.println("The number: " + loopVar + " gives the condition (loopVar <10) as: " + (loopVar < 10));
-        } while (loopVar < 10);
+        if (x > 10) {
+            System.out.print("A");
+
+            if (x < 20) {
+                System.out.print("E");
+            } else {
+                System.out.print("X");
+            }
+
+        } else {
+            System.out.print("Z");
+        }
 
     }
 
