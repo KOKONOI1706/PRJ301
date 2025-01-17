@@ -11,9 +11,10 @@ import java.util.Scanner;
  *
  * @author GIGABYTE
  */
-
 public class CourseraLearning {
+
     Scanner sc = new Scanner(System.in);
+
     /**
      * @param args the command line arguments
      */
@@ -21,7 +22,12 @@ public class CourseraLearning {
         // TODO code application logic here
         chainedConditions chain = new chainedConditions();
         chain.whereToGo(300);
-        
+        int loopVar = 12;
+
+        do {
+            System.out.println("The number: " + loopVar + " gives the condition (loopVar <10) as: " + (loopVar < 10));
+        } while (loopVar < 10);
+
     }
-    
+
 }
