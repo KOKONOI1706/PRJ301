@@ -1,0 +1,97 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="3" l="1737121274394" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="13" l="1737191055953" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="70" l="1737190683355" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="50" l="1737191076387" />
+    </e>
+    <e n="EditorCopy">
+      <i c="2" l="1737189427674" />
+    </e>
+    <e n="EditorDelete">
+      <i c="9" l="1737190922045" />
+    </e>
+    <e n="EditorDeleteToWordEnd">
+      <i c="5" l="1737190721115" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="16" l="1737190923113" />
+    </e>
+    <e n="EditorDown">
+      <i c="32" l="1737191058083" />
+    </e>
+    <e n="EditorEnter">
+      <i c="25" l="1737190989614" />
+    </e>
+    <e n="EditorLeft">
+      <i c="6" l="1737191028925" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="13" l="1737190739412" />
+    </e>
+    <e n="EditorPaste">
+      <i c="1" l="1737189429764" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="32" l="1737190712136" />
+    </e>
+    <e n="EditorRight">
+      <i c="9" l="1737190700294" />
+    </e>
+    <e n="EditorScrollDown">
+      <i c="2" l="1737190714321" />
+    </e>
+    <e n="EditorSplitLine">
+      <i c="1" l="1737121271869" />
+    </e>
+    <e n="EditorStartNewLine">
+      <i c="1" l="1737121276028" />
+    </e>
+    <e n="EditorTab">
+      <i c="41" l="1737189854121" />
+    </e>
+    <e n="EditorUp">
+      <i c="3" l="1737191075562" />
+    </e>
+    <e n="Generate">
+      <i c="3" l="1737120926393" />
+    </e>
+    <e n="GenerateConstructor">
+      <i c="2" l="1737120917200" />
+    </e>
+    <e n="GenerateGetterAndSetter">
+      <i c="1" l="1737120928339" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="5" l="1737191010232" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1727356888429" />
+    </e>
+    <e n="Rerun">
+      <i c="5" l="1737190953910" />
+    </e>
+    <e n="Run">
+      <i c="2" l="1737189921053" />
+    </e>
+    <e n="SaveAll">
+      <i c="8" l="1737191077321" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="5" l="1737120908496" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1727356932455" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1723576228176" />
+    </e>
+  </component>
+</application>
