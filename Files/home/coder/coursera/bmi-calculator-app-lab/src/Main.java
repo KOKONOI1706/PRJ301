@@ -22,21 +22,21 @@ public class Main {
             // The case of IMPERIAL BMI system
             case "IMPERIAL":
                 // Please invoke the obtainWeight() method of the UserInput class and assign it to the variable weight
-                bmiCalculator.setWeightInPounds(userInput.obtainWeight(bmiSystem));
+                weight = userInput.obtainWeight(bmiSystem);
                 // Please invoke the obtainHeight() method of the UserInput class and assign it to the variable height
-                bmiCalculator.setHeightInInches(userInput.obtainHeight(bmiSystem));
+                height = userInput.obtainHeight(bmiSystem);
                 // Please invoke the calculateBmiImperial() method of the BMICalculator class
-                bmiCalculator.calculateBmiImperial();
+                bmi = bmiCalculator.calculateBmiImperial(weight, height);
                 // Break out of the switch statement
                 break;
             // The case of METRIC BMI system
             case "METRIC":
                 // Please invoke the obtainWeight() method of the UserInput class and assign it to the variable weight
-                bmiCalculator.setWeightInKilos(userInput.obtainWeight(bmiSystem));
+                weight = userInput.obtainWeight(bmiSystem);
                 // Please invoke the obtainHeight() method of the UserInput class and assign it to the variable height
-                bmiCalculator.setHeightInMeters(userInput.obtainHeight(bmiSystem));
+                height = userInput.obtainHeight(bmiSystem);
                 // Please invoke the calculateBmiMetric() method of the BMICalculator class
-                bmiCalculator.calculateBmiMetric();
+                bmi = bmiCalculator.calculateBmiMetric(weight, height);
                 // Break out of the switch statement
                 break;
             // The case of empty BMI system due to invalid user input

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tasks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/home/coder/coursera/.coursera-dotfiles/.config/JetBrains/IdeaIC2024.1/tasks/bmi_calculator_app_lab.tasks.zip!/" />
+      <root url="jar://$PROJECT_DIR$/home/coder/coursera/.coursera-dotfiles/.config/JetBrains/IdeaIC2024.1/tasks/bmi_calculator_app_lab.contexts.zip!/" />
+      <root url="jar://$PROJECT_DIR$/home/coder/coursera/.coursera-dotfiles/.config/JetBrains/IdeaIC2024.1/tasks/Solution.contexts.zip!/" />
+      <root url="jar://$PROJECT_DIR$/home/coder/coursera/.coursera-dotfiles/.config/JetBrains/IdeaIC2024.1/tasks/Solution.tasks.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
