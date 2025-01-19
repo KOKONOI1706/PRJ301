@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3d3c698-a332-41d8-8a84-ab69d3fb7c28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Dolphin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Swim.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Swim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Tiger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ModuleQuiz_M3L3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ModuleQuiz_M3L3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ModuleQuiz_M3L3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.ModuleQuiz_M3L3" />
@@ -90,6 +86,7 @@
       <updated>1737198189122</updated>
       <workItem from="1737198190466" duration="7000" />
       <workItem from="1737198538936" duration="6337000" />
+      <workItem from="1737274023268" duration="684000" />
     </task>
     <servers />
   </component>
