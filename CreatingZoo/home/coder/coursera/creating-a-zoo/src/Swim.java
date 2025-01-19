@@ -1,3 +1,3 @@
 public interface Swim {
-    void swim();
+    public void swimming();
 }

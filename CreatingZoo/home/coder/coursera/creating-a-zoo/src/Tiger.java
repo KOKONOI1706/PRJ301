@@ -1,7 +1,7 @@
 public abstract class Tiger extends Animal implements Eat,Walk{
-    private int numberOfStripes = 456;
-    private double speed = 123;
-    private int soundLevelOfRoar = 50;
+    private int numberOfStripes;
+    private double speed;
+    private int soundLevelOfRoar ;
 
     public Tiger() {
        super("Tiger");
@@ -30,9 +30,13 @@ public abstract class Tiger extends Animal implements Eat,Walk{
     public void setSoundLevelOfRor(int soundLevelOfRor) {
         this.soundLevelOfRor = soundLevelOfRor;
     }
-
     @Override
-    public void walking() {
+    public void eatingCompleted(){
+        System.out.println("Tiger: I have eaten meat");
+    }
+    @Override
+    public void wallk(){
+        System.out.println("I am walking at the speed" + speed + "mph");
 
     }
 }

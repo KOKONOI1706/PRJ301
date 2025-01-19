@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3d3c698-a332-41d8-8a84-ab69d3fb7c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Swim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Dolphin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Swim.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Swim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingZoo/home/coder/coursera/creating-a-zoo/src/Tiger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,11 +89,22 @@
       <option name="presentableId" value="Default" />
       <updated>1737198189122</updated>
       <workItem from="1737198190466" duration="7000" />
-      <workItem from="1737198538936" duration="4792000" />
+      <workItem from="1737198538936" duration="6337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

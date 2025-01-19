@@ -7,7 +7,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
 
         // for loop continuation - 1 represents true
-        int continueOuterLoop = 1  ;
+        int continueOuterLoop = 1;
         int continueInnerLoop = 1;
 
         // for menu choice
@@ -40,7 +40,6 @@ public class Main {
          **/
 
 
-
         /** TODO 5: implement the "Walk" interface in
          *          "Tiger" class created in the TODO 1
          *          and in the  implementation of the
@@ -70,16 +69,18 @@ public class Main {
         /** TODO 8: create a menu system to work with the Animal selected
          *          use the switch provided below
          **/
+        Tiger tiger = new Tiger();
+        Dolphin dolphin = new Dolphin();
         do {
             switch (animalChoiceMenu(keyboard)) {
                 case 1:
                     do {
                         System.out.println("The animal which is chosen is : ");
                         // get menu choice
+                        menuChoice = animalChoiceMenu(keyboard);
                         switch (menuChoice) {
                             case 1:
                                 break;
-
                             case 2:
                                 break;
                             case 3:
@@ -92,7 +93,7 @@ public class Main {
                         }
                         System.out.println("Continue with this animal ? (Enter 1 for yes/ 2 for no):");
                         continueInnerLoop = keyboard.nextInt();
-                    } while(continueInnerLoop == 1);
+                    } while (continueInnerLoop == 1);
 
                     break;
                 case 2:
@@ -115,7 +116,7 @@ public class Main {
                         }
                         System.out.println("Continue with this animal ? (Enter 1 for yes/ 2 for no):");
                         continueInnerLoop = keyboard.nextInt();
-                    } while(continueInnerLoop == 1);
+                    } while (continueInnerLoop == 1);
                     break;
 
                 default:
@@ -125,7 +126,7 @@ public class Main {
             System.out.println("Continue main Zoo menu? (Enter 1 for yes/ 2 for no):");
             continueOuterLoop = keyboard.nextInt();
 
-        } while(continueOuterLoop == 1);
+        } while (continueOuterLoop == 1);
         /** TODO 9: create a class "Penguin" from the "Animal" class **/
 
         /** TODO 10: integrate the choice to pick a "penguin" in the menu system **/
