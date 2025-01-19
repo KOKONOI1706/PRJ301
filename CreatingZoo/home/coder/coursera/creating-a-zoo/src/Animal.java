@@ -1,4 +1,4 @@
-abstract public class Animal implements Eat {
+ public abstract class Animal implements Eat {
 
     // property representing name of the animal
     private String nameOfAnimal;
@@ -54,7 +54,7 @@ abstract public class Animal implements Eat {
     }
 
     @Override
-    public void eatingFood() {
+    public abstract void eatingFood() {
         System.out.println("The animal: " + nameOfAnimal + " is eating.");
     }
 
