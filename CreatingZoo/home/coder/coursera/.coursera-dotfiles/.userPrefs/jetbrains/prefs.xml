@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="device_id" value="0608243372f8e11-34ce-475a-9ff4-88d47ab3e0a4"/>
+  <entry key="feature_usage_event_log_salt" value="OfDLjSs+o252HT3BLeIUJwwuWklZKjphC1AwLxOMr7E="/>
+  <entry key="marketplacedownloads_device_id" value="0608243265015c1-0c89-4070-9e80-c04ba0290eae"/>
+  <entry key="mp_device_id" value="060824363bad496-5ec6-4871-a9ab-cd69d25b7c7c"/>
+  <entry key="mp_feature_usage_event_log_salt" value="5X34GZirRMQJO4zHOCjPkb6fftVgBp5MGGsM3gs6Mew="/>
+  <entry key="packagechecker_device_id" value="0608243913ef57e-1223-440b-8183-d7e119233996"/>
+  <entry key="user_id_on_machine" value="e960a0dc-118d-4a97-a6b7-6a648833fbf9"/>
+</map>

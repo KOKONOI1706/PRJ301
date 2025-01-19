@@ -1,0 +1,52 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="2" l="1737200160902" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="5" l="1737200079037" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="14" l="1737200176160" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="11" l="1737200082451" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="1" l="1737200157024" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="9" l="1737200175258" />
+    </e>
+    <e n="EditorDown">
+      <i c="3" l="1737200081773" />
+    </e>
+    <e n="EditorEnter">
+      <i c="4" l="1737200150962" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1737200066278" />
+    </e>
+    <e n="EditorRight">
+      <i c="1" l="1737200150025" />
+    </e>
+    <e n="EditorSplitLine">
+      <i c="1" l="1737199534816" />
+    </e>
+    <e n="EditorStartNewLine">
+      <i c="5" l="1737199734510" />
+    </e>
+    <e n="EditorUp">
+      <i c="1" l="1737199739814" />
+    </e>
+    <e n="NewClass">
+      <i c="2" l="1737199725624" />
+    </e>
+    <e n="SaveAll">
+      <i c="3" l="1737200181280" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1726764158401" />
+    </e>
+  </component>
+</application>
