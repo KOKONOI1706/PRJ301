@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="OpenFile">
+      <i c="1" l="1727357450995" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1727357473501" />
+    </e>
+    <e n="SaveAll">
+      <i c="2" l="1727357494135" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1727357480774" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1724866184704" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1724866244834" />
+    </e>
+  </component>
+</application>

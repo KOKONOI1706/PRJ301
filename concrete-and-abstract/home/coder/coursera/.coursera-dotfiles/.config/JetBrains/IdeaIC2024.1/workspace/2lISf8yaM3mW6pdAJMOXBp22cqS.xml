@@ -1,0 +1,113 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="concrete-and-abstract" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="a6h67yzvlq7a" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Learner.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 4,
+      "lastUsed": 1727357320929
+    }
+  }
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="4" lastUsage="1727357321012" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="concrete-and-abstract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/concrete-and-abstract}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concrete-and-abstract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/concrete-and-abstract}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/concrete-and-abstract/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concrete-and-abstract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/concrete-and-abstract}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/concrete-and-abstract/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="Learner.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Learn" order="2" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Services" order="8" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="AIAssistant" order="1" />
+      <window_info anchor="right" id="Notifications" order="2" weight="0.25" />
+      <unified_weights left="0.25" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1039" y="351" width="434" height="488" key="FileChooserDialogImpl" timestamp="1727357453885">
+      <screen x="0" y="31" width="2192" height="1091" />
+    </state>
+    <state x="703" y="372" width="434" height="488" key="FileChooserDialogImpl/0.31.1483.1161@0.31.1483.1161" timestamp="1724868022586" />
+    <state x="834" y="372" key="FileChooserDialogImpl/0.31.1760.1161@0.31.1760.1161" timestamp="1724866678888" />
+    <state x="1039" y="351" key="FileChooserDialogImpl/0.31.2192.1091@0.31.2192.1091" timestamp="1727357453885" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Learner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

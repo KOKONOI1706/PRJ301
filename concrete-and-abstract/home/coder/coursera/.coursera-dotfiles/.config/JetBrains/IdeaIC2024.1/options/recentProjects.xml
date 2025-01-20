@@ -1,0 +1,41 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/coursera/IdeaProjects/concrete-and-abstract">
+          <value>
+            <RecentProjectMetaInfo frameTitle="concrete-and-abstract – Learner.java" opened="true" projectWorkspaceId="2lISf8yaM3mW6pdAJMOXBp22cqS">
+              <option name="activationTimestamp" value="1727357483870" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-241.18034.62" />
+              <option name="buildTimestamp" value="1718905980000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="226" y="51" width="1400" height="787" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1727357322826" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/coursera/IdeaProjects/Solution">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Solution – Main.java" projectWorkspaceId="2jH5R0jsdASJKFuhFwgbv7AQDrC">
+              <option name="activationTimestamp" value="1727357455952" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-241.18034.62" />
+              <option name="buildTimestamp" value="1718905980000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="396" y="76" width="1400" height="1000" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1727357456219" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/coursera/IdeaProjects/concrete-and-abstract" />
+  </component>
+</application>
