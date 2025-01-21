@@ -4,7 +4,7 @@ class SendButtonlClass extends AbstractButtonClass{
 
     @Override
     public void buttonPressed() {
-        System.out.println("Sending" + this.message + " to " + this.sendTo);
+        System.out.println("Sending " + this.message + " to " + this.sendTo);
     }
 
     public String getSendTo() {
