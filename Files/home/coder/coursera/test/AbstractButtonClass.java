@@ -1,4 +1,6 @@
-abstract class AbstractButtonClass{
+import java.awt.event.ActionEvent;
+
+abstract class AbstractButtonClass {
     String caption;
     public abstract void buttonPressed();
 
