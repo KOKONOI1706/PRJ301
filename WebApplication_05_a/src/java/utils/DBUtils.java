@@ -7,7 +7,6 @@ package utils;
 
 import java.io.Serializable;
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -25,13 +24,11 @@ public class DBUtils implements Serializable {
     private static final String DB_PASSWORD = "12345";
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
-
         Connection conn = null;
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         String url = "jdbc:sqlserver://localhost:1433;databaseName=" + DB_NAME;
         conn = DriverManager.getConnection(url, DB_USER_NAME, DB_PASSWORD);
         return conn;
-
     }
 
     public static void main(String[] args) {
