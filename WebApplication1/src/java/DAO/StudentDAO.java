@@ -16,7 +16,7 @@ public class StudentDAO {
             stmt.setString(1, fullName);
             stmt.setString(2, gender);
             stmt.executeUpdate();
-        }
+        } 
     }
 
     // UPDATE operation

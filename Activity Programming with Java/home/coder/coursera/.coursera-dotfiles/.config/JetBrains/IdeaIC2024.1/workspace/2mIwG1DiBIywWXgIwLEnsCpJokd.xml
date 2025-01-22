@@ -1,0 +1,109 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="programming-with-abstraction" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="a6h67yzvlq7a" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 2,
+      "lastUsed": 1726777516097
+    }
+  }
+}]]></component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Main.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="2" lastUsage="1726777516099" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="programming-with-abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/programming-with-abstraction}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programming-with-abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/programming-with-abstraction}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/coder/coursera/IdeaProjects/programming-with-abstraction/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Learn" order="2" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Services" order="8" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="AIAssistant" order="1" />
+      <window_info anchor="right" id="Notifications" order="2" weight="0.25" />
+      <unified_weights left="0.25" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="192" width="434" height="488" key="FileChooserDialogImpl" timestamp="1726777476511">
+      <screen x="0" y="31" width="1693" height="806" />
+    </state>
+    <state x="629" y="192" width="434" height="488" key="FileChooserDialogImpl/0.31.1693.806@0.31.1693.806" timestamp="1726777476511" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
