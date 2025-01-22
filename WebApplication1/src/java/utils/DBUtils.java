@@ -33,25 +33,11 @@ public class DBUtils implements Serializable {
 
     public static void main(String[] args) {
         try {
-            
+
             Connection c = getConnection();
 
-            String sql = "USE master;"
-                    + "GO"
-                    + "CREATE DATABASE " + DB_NAME + ";"
-                    + "COLLATE SQL_Latin1_General_CP1254_CI_AS;"
-                    + "USE " + DB_NAME + ";"
-                    + "GO"
-                    + "IF EXIST (SELECT * FROM sys.tables WHERE name = '" + DB_NAME + "')"
-                    + "Begin"
-                    + " DROP TABLE " + DB_NAME + ";"
-                    + "END"
-                    + "GO"
-                    + "CREATE TABLE" + DB_NAME + "("
-                    + "IDStudent INT KEY AUTO_INCREMENT,"
-                    + "FullName VARCHAR(100) NOT NULL,"
-                    + "Gender ENUM('Male', 'Female') NOT NULL"
-                    + ");";
+            String sql = "INSERT INTO Student (IDStudent, FullName, Gender)"
+                    + "VALUES(2, 'Donal Trump', 'Male');";
 
             Statement st = c.createStatement();
             int result = st.executeUpdate(sql);
@@ -65,22 +51,3 @@ public class DBUtils implements Serializable {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
