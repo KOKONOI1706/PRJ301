@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3d3c698-a332-41d8-8a84-ab69d3fb7c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coursera/try-catch/MultipleCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coursera/try-catch/TryCatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PRJ301.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PRJ301.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coursera/try-catch/TryWithResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/try-catch/TryWithResources.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
     "Application.ModuleQuiz_M3L3.executor": "Run",
     "Application.MultipleCatch.executor": "Run",
     "Application.TryCatchTest.executor": "Run",
+    "Application.TryWithResources.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -63,16 +62,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MultipleCatch">
+  <component name="RunManager" selected="Application.TryWithResources">
     <configuration name="ExploreExceptionTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExploreExceptionTypes" />
-      <module name="PRJ301" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PRJ301" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,16 +84,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryWithResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryWithResources" />
+      <module name="PRJ301" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PRJ301/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryWithResources" />
         <item itemvalue="Application.MultipleCatch" />
         <item itemvalue="Application.TryCatchTest" />
         <item itemvalue="Application.ExploreExceptionTypes" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +129,7 @@
       <workItem from="1737718850195" duration="301000" />
       <workItem from="1737815421062" duration="665000" />
       <workItem from="1737903369041" duration="879000" />
-      <workItem from="1738388466075" duration="2175000" />
+      <workItem from="1738388466075" duration="3794000" />
     </task>
     <servers />
   </component>
