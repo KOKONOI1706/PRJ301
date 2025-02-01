@@ -5,10 +5,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Activity Programming with Java/home/coder/coursera/IdeaProjects/programming-with-abstraction/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coursera/Class hierachy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/coursera/Arrays in Java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coursera/happy new year" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coursera/ExploreExceptionTypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coursera/try-catch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/coursera/C3M1" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
