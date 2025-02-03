@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3d3c698-a332-41d8-8a84-ab69d3fb7c28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/coursera/C3M1L2/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coursera/C3M1L2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PRJ301.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PRJ301.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coursera/Arrays in Java/ArrayList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Arrays in Java/ArrayList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,37 +39,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ExceptionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExploreExceptionTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FinallyTestOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ModuleQuiz_M3L3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleCatch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryCatchTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryWithResources.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/FPT/Spring 2025/PRJ301&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExceptionTest.executor": "Run",
+    "Application.ExceptionsTest.executor": "Run",
+    "Application.ExploreExceptionTypes.executor": "Run",
+    "Application.FinallyTestOne.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ModuleQuiz_M3L3.executor": "Run",
+    "Application.MultipleCatch.executor": "Run",
+    "Application.RecommendationBookManager.executor": "Run",
+    "Application.TryCatchTest.executor": "Run",
+    "Application.TryWithResources.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/FPT/Spring 2025/PRJ301",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FPT\Spring 2025\PRJ301\coursera" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecommendationBookManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PRJ301" />
@@ -105,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RecommendationBookManager" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RecommendationBookManager" />
         <item itemvalue="Application.TryWithResources" />
         <item itemvalue="Application.MultipleCatch" />
         <item itemvalue="Application.TryCatchTest" />
@@ -141,7 +144,7 @@
       <workItem from="1738388466075" duration="3794000" />
       <workItem from="1738392848870" duration="1866000" />
       <workItem from="1738551633828" duration="6099000" />
-      <workItem from="1738582787990" duration="1220000" />
+      <workItem from="1738582787990" duration="6065000" />
     </task>
     <servers />
   </component>
