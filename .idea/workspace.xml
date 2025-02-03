@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d3c698-a332-41d8-8a84-ab69d3fb7c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coursera/Arrays in Java/ArrayList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PRJ301.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PRJ301.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/nbproject/ant-deploy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/nbproject/ant-deploy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/nbproject/build-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/nbproject/genfiles.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/nbproject/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/src/conf/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/src/conf/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/web/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_1/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Homework_1/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/nbproject/ant-deploy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/nbproject/ant-deploy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/nbproject/build-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/nbproject/genfiles.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/nbproject/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/src/conf/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/src/conf/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/web/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Login/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/Test_Login/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/ExploreExceptionTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/MultipleCatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/TryCatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/TryWithResources.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/web.class" beforeDir="false" />
-    </list>
+    <list default="true" id="a3d3c698-a332-41d8-8a84-ab69d3fb7c28" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +137,7 @@
       <workItem from="1737903369041" duration="879000" />
       <workItem from="1738388466075" duration="3794000" />
       <workItem from="1738392848870" duration="1866000" />
-      <workItem from="1738551633828" duration="6042000" />
+      <workItem from="1738551633828" duration="6099000" />
     </task>
     <servers />
   </component>
