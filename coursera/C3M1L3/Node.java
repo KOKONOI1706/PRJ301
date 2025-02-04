@@ -1,5 +1,5 @@
 public class Node {
-   String name;
+    String name;
     String details;
     Node next;
 
