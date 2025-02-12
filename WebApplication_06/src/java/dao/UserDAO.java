@@ -1,7 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+DAO (Data Access Object):
+DAO là một design pattern dùng để truy cập và thao tác với database
+Chứa tất cả các phương thức CRUD (Create, Read, Update, Delete)
+Đóng gói toàn bộ logic truy cập database
+Tách biệt logic truy cập dữ liệu khỏi business logic
+Giúp code dễ maintain và test hơn
  */
 package dao;
 
@@ -18,50 +21,52 @@ import utils.DBUtils;
 
 /**
  *
- * @author GIGABYTE
+ * @author tungi
  */
-public class UserDAO implements IDAO<UserDTO, String>{
+public class UserDAO implements IDAO<UserDTO, String> {
 
     @Override
     public boolean create(UserDTO entity) {
-         String sql = "INSERT INTO [tblUsers] ([userID], [fullName], [roleID], [password]) "
+        String sql = "INSERT INTO [tblUsers] ([userID], [fullName], [roleID], [password]) "
                 + "VALUES (N'" + entity.getUserID() + "', N'" + entity.getFullName() + "', N'" + entity.getRoleID() + "', N'" + entity.getPassword() + "')";
+
         try {
             Connection conn = DBUtils.getConnection();
             Statement st = conn.createStatement();
             int n = st.executeUpdate(sql);
-//            if(n > 0){
+//            if (n > 0) {
 //                return true;
-//            }else {
+//            }else
+//            {
 //                return false;
 //            }
             return n > 0;
-        } catch (ClassNotFoundException | SQLException ex) {
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
+            return false;
+        } catch (SQLException ex) {
             Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
             return false;
         }
-         
     }
 
     @Override
     public List<UserDTO> readAll() {
-        List<UserDTO> list = new ArrayList<UserDTO>();
-        String sql = "SELECT * FROM [tbUsers]";
+        List<UserDTO> list = new ArrayList< UserDTO>();
+        String sql = "SELECT * FROM [tblUsers]";
         try {
             Connection conn = DBUtils.getConnection();
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(sql);
-            while(rs.next()){
+            while (rs.next()) {
                 UserDTO user = new UserDTO(
-                        rs.getString("UserID"), 
-                        rs.getString("fullName"), 
-                        rs.getString("roleID"), 
+                        rs.getString("userID"),
+                        rs.getString("fullName"),
+                        rs.getString("roleID"),
                         rs.getString("password"));
                 list.add(user);
             }
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
+        } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         return list;
@@ -69,24 +74,81 @@ public class UserDAO implements IDAO<UserDTO, String>{
 
     @Override
     public UserDTO readById(String id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String sql = "SELECT * FROM [tblUsers] WHERE [userID] = N'" + id + "'";
+        try {
+            Connection conn = DBUtils.getConnection();
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+            if (rs.next()) {
+                return new UserDTO(
+                        rs.getString("userID"),
+                        rs.getString("fullName"),
+                        rs.getString("roleID"),
+                        rs.getString("password")
+                );
+            }
+        } catch (ClassNotFoundException | SQLException ex) {
+            Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return null;
     }
 
     @Override
     public boolean update(UserDTO entity) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String sql = "UPDATE [tblUsers] SET "
+                + "[fullName] = N'" + entity.getFullName() + "', "
+                + "[roleID] = N'" + entity.getRoleID() + "', "
+                + "[password] = N'" + entity.getPassword() + "' "
+                + "WHERE [userID] = N'" + entity.getUserID() + "'";
+        try {
+            Connection conn = DBUtils.getConnection();
+            Statement st = conn.createStatement();
+            int n = st.executeUpdate(sql);
+            return n > 0;
+        } catch (ClassNotFoundException | SQLException ex) {
+            Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
+            return false;
+        }
     }
 
     @Override
     public boolean delete(String id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String sql = "DELETE FROM [tblUsers] WHERE [userID] = N'" + id + "'";
+        try {
+            Connection conn = DBUtils.getConnection();
+            Statement st = conn.createStatement();
+            int n = st.executeUpdate(sql);
+            return n > 0;
+        } catch (ClassNotFoundException | SQLException ex) {
+            Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
+            return false;
+        }
     }
 
     @Override
     public List<UserDTO> search(String searchTerm) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        List<UserDTO> list = new ArrayList<>();
+        String sql = "SELECT [userID], [fullName], [roleID], [password] FROM [tblUsers] "
+                + "WHERE [userID] LIKE N'%" + searchTerm + "%' "
+                + "OR [fullName] LIKE N'%" + searchTerm + "%' "
+                + "OR [roleID] LIKE N'%" + searchTerm + "%'";
+        try {
+            Connection conn = DBUtils.getConnection();
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+            while (rs.next()) {
+                UserDTO user = new UserDTO(
+                        rs.getString("userID"),
+                        rs.getString("fullName"),
+                        rs.getString("roleID"),
+                        rs.getString("password")
+                );
+                list.add(user);
+            }
+        } catch (ClassNotFoundException | SQLException ex) {
+            Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return list;
     }
-
-    
 
 }
