@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3d3c698-a332-41d8-8a84-ab69d3fb7c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coursera/C3M1L3/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coursera/C3M1L3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/C3M1L3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coursera/C3M1L3/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/coursera/C3M1L3/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/Friend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRJ301/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRJ301/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +143,7 @@
       <workItem from="1738551633828" duration="6099000" />
       <workItem from="1738582787990" duration="7961000" />
       <workItem from="1738646811490" duration="1945000" />
+      <workItem from="1738648969563" duration="2345000" />
     </task>
     <servers />
   </component>
