@@ -14,13 +14,14 @@
     </head>
     <body>
         <%
-            UserDTO user = (UserDTO)request.getAttribute("user");
+            UserDTO user = (UserDTO)session.getAttribute("user");
         %>
         <h1>Welcome <%=user.getFullName()%> </h1>
         <hr/>
         <form action="MainController" method="get">
             <input type="hidden" name="action" value="logout"/>
-            <input type="submit" value="Logout"/>     
+             <input type="submit" value="Logout"/>
         </form>
+            
     </body>
 </html>

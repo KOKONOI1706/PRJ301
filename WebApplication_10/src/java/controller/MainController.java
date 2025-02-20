@@ -35,11 +35,12 @@ public class MainController extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    public UserDTO getUser(String strUserID){
+    public UserDTO getUser(String strUserID) {
         UserDAO udao = new UserDAO();
         UserDTO user = udao.readById(strUserID);
         return user;
     }
+
     public boolean isValidLogin(String strUserID, String strPassword) {
         UserDTO user = getUser(strUserID);
         if (user == null) {
@@ -66,25 +67,24 @@ public class MainController extends HttpServlet {
                     if (isValidLogin(txt_user, txt_password)) {
                         url = "user.jsp";
                         UserDTO user = getUser(txt_user);
-                        request.setAttribute("user", user);
+                        request.getSession().setAttribute("user", user);
                     } else {
                         request.setAttribute("message", "Incorrect user id or password");
                         url = "login.jsp";
                     }
-                }else if(action != null && action.equals("login")){
-                    url = "Logout";
-                   request.setAttribute("user", null);
-                   out.print("<b> You are logged out!</b> </br>");
-                   out.print("<a href='MainController'> Back to login page</a>");
+                } else if (action != null && action.equals("logout")) {
+                    url = "login.jsp";
+                    request.getSession().invalidate();
+                   
                 }
             } catch (Exception e) {
                 log("Error at Maincontroller: " + e.toString());
-            }finally{
+            } finally {
                 RequestDispatcher rd = request.getRequestDispatcher(url);
-                if(!url.equals("Logout")){
+                if (!url.equals("Maincontroller")) {
                     rd.forward(request, response);
                 }
-                
+
             }
         }
     }
