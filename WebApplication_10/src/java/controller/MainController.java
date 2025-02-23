@@ -5,10 +5,13 @@
  */
 package controller;
 
+import dao.BookDAO;
 import dao.UserDAO;
+import dto.BookDTO;
 import dto.UserDTO;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -65,7 +68,7 @@ public class MainController extends HttpServlet {
                     String txt_user = request.getParameter("user");
                     String txt_password = request.getParameter("pass");
                     if (isValidLogin(txt_user, txt_password)) {
-                        url = "user.jsp";
+                        url = "search.jsp";
                         UserDTO user = getUser(txt_user);
                         request.getSession().setAttribute("user", user);
                     } else {
@@ -75,7 +78,13 @@ public class MainController extends HttpServlet {
                 } else if (action != null && action.equals("logout")) {
                     url = "login.jsp";
                     request.getSession().invalidate();
-                   
+
+                } else if (action != null && action.equals("search")) {
+                    url = "search.jsp";
+                    String searchTerm = request.getParameter("searchTerm");
+                    BookDAO bdao = new BookDAO();
+                    ArrayList<BookDTO> list = new ArrayList<BookDTO>();
+                    
                 }
             } catch (Exception e) {
                 log("Error at Maincontroller: " + e.toString());
